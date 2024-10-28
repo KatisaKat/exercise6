@@ -30,6 +30,8 @@
       
       #nav li {
         float: left;
+        width: 5em;
+        text-align: center;
       }
       
       #nav a {
@@ -38,11 +40,15 @@
         text-decoration: none;
         color: white;
         background-color: #808080;
+        position: relative;
+        left: 2px;
       }
       
       #nav li a:hover {
         color: #111;
       }
+      
+      #nav {z-index: 10px;}
 
       body {
         color: #666666;
@@ -84,6 +90,7 @@
 
       .courses {
         float: left;
+        margin-top: 5px;
         width: 659px;
         border-right: 1px solid #eeeeee;
       }
@@ -149,10 +156,10 @@
                     Instructions: Add a list using the <ul> element and the <li> element to create a link for each menu item. Set the href value to empty. Normally you would put the relative path of page you are linking to, but we are creating a placeholder.
                     -->
           <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="/classes/">CLASSES</a></li>
-            <li><a href="/catering/">CATERING</a></li>
-            <li><a href="/about/">ABOUT</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Classes</a></li>
+            <li><a href="/">Catering</a></li>
+            <li><a href="/">About</a></li>
           </ul>
         </div>
       </div>
